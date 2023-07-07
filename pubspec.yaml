@@ -1,0 +1,32 @@
+name: gpsmap
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  location: ^4.4.0  # 最新バージョンに更新
+  connectivity: ^3.0.6
+  sensors: ^2.0.0
+  google_maps_flutter: ^2.0.10
+  flutter_launcher_icons: "^0.9.2"
+  cupertino_icons: ^1.0.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
